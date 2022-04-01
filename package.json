@@ -1,0 +1,11 @@
+{
+  "name": "marketplace_2.0.0",
+  "version": "1.0.0",
+  "description": "This is a maket place",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charles",
+  "license": "MIT"
+}
