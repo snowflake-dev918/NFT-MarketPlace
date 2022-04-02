@@ -1,3 +1,4 @@
+import { connect } from "react-redux";
 import { RootState } from "../../modules/reducer";
 import { getIsFullscreen, getIsMap } from "../../modules/routing/selectors";
 import { MapStateProps } from "./LandsPage.types";
@@ -8,4 +9,4 @@ const mapState = (state: RootState): MapStateProps => ({
   isMap: getIsMap(state) ?? true,
 });
 
-export default LandsPage;
+export default connect(mapState, undefined)(LandsPage);
